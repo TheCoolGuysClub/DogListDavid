@@ -5,7 +5,7 @@ const dogSchema = mongoose.Schema({
     type: String,
     required: true,
     minLength:1,
-    unique:true;\
+    unique:true
 
 
   },
@@ -15,3 +15,4 @@ const dogSchema = mongoose.Schema({
   }
 });
 const Dog = mongoose.model(`Dog`,dogSchema)
+module.exports=(Dog)
