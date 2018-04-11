@@ -8,6 +8,10 @@ app.get(`/`,(req,res)=>{
   res.send(`GET /`);
 })
 
+app.post(`/dogs`,(req,res)=>{
+  res.send(`POST /dogs`);
+})
+
 app.listen(port,()=>{
   console.log(`listening on port ${port}`);
 })
