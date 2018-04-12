@@ -1,7 +1,7 @@
 const express = require(`express`);
 const bodyParser = require(`body-parser`);
 const mongoose = require(`mongoose`);
-const {Dog}=require(`./models/dog.js`);
+// const {Dog}=require(`./models/dog.js`);
 const app = express();
 //-------------------------------set up----------------------------------
 const port = process.env.PORT||3000;
